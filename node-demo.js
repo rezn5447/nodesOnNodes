@@ -31,6 +31,6 @@ const nodeCounter = (node, counter, highestCount) => {
 };
 
 const nodeOnNodes = (node) => {
-  const finalCounter = nodeCounter(node, (counter = {}), 0);
+  const finalCounter = nodeCounter(node, {}, 0);
   return finalCounter;
 };
